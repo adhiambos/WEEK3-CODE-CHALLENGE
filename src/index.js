@@ -13,7 +13,7 @@ function fetchMovies(URL) {
             movies.forEach(movie => {
                 displayMovie(movie);
             });
-            addClickEvent(); // Moved outside displayMovie to avoid multiple calls
+            addClickEvent(); 
         });
 }
 
